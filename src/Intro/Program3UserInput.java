@@ -1,3 +1,4 @@
+package Intro;
 import java.util.Scanner;//This is necessary so we can use the Scanner class!
 
 public class Program3UserInput

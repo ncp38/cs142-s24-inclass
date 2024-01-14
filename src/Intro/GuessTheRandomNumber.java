@@ -1,3 +1,4 @@
+package Intro;
 public class GuessTheRandomNumber
 {
     public static void main(String[] args)

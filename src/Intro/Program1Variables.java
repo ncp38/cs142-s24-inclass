@@ -1,3 +1,4 @@
+package Intro;
 //This program demonstrates some common variable types.
 public class Program1Variables
 {
