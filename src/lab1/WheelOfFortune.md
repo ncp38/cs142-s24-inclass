@@ -12,12 +12,8 @@ There are a few things that you should know about this lab assignment:
 
 1. It is a _pair programming_ activity. Pair programming is a software
    development practice where two programmers sit side-by-side at the
-   same computer and work together to develop a program. One programmer
-   is the _driver_--they type and edit the code, explaining what they
-   are doing. The other programmer is the _navigator_, who should be
-   thinking about the big picture, offering advice and suggestions, and
-   __asking questions__. The members of a pair programming team should talk
-   throughout the process so that they can switch roles at any moment.
+   same computer and work together to develop a program. There are a few different ways to do pair programming, and you should discuss what methods would work best for you and your partner(s). Both programmers should be focused on the problem and contributing to the group work; if you feel like you're getting lost, please feel free to discuss with your partner or the professor! If you find yourself settling into a rut or losing concentration, finding some way to mix things up (looking at the problem from a different perspective, swapping places with your partner, or even talking over the problem with your partner or the professor) can be helpful. When working in a group, remember that one of the most important components is communication-you and your partner(s) are a part of the same team, and your ability to work together is based on how well you can communicate! 
+
 
 2. You will be editing this file using [markdown](https://commonmark.org/help/).
    You will write your answers in this file, and this edited file will be
@@ -29,11 +25,10 @@ There are a few things that you should know about this lab assignment:
    look perfect.
 
 3. Each person on the team should have their own copy of this file, but
-   you should choose to fill in __one__ team member's markdown file.
-   When you are done with the lab, this team member should share their
-   file with the rest of the team.
+   I recommend filling in __one__ team member's markdown file.
+   When your team is done with the lab, make sure to coordinate about how to get each team member can get the files the group worked on!  I recommend doing this before leaving the lab session, as it is very easy to have an issue come up (mistyped email address, forgetfulness, etc.)
 
-   You should note who you worked with at the top of this file.
+   Make sure to write down your name and who you worked with at the top of this file and at the top of your Java code!
 
 ## Goals
 
