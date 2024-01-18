@@ -1,10 +1,8 @@
 # Wheel of Fortune
 
-Team members (edit these):
+Team members (edit these)-this week, this will just be you:
 
 1. Team member 1
-2. Team member 2
-3. Team member 3
 
 ## Before you begin...
 
