@@ -1,21 +1,14 @@
 # Wheel of Fortune
 
-Team members (edit these):
+Team members (edit these)-this week, this will just be you:
 
 1. Team member 1
-2. Team member 2
-3. Team member 3
 
 ## Before you begin...
 
 There are a few things that you should know about this lab assignment:
 
-1. It is a _pair programming_ activity. Pair programming is a software
-   development practice where two programmers sit side-by-side at the
-   same computer and work together to develop a program. There are a few different ways to do pair programming, and you should discuss what methods would work best for you and your partner(s). Both programmers should be focused on the problem and contributing to the group work; if you feel like you're getting lost, please feel free to discuss with your partner or the professor! If you find yourself settling into a rut or losing concentration, finding some way to mix things up (looking at the problem from a different perspective, swapping places with your partner, or even talking over the problem with your partner or the professor) can be helpful. When working in a group, remember that one of the most important components is communication-you and your partner are part of the same team, and your ability to work together is based on how well you can communicate! 
-
-
-2. You will be editing this file using [markdown](https://commonmark.org/help/).
+   You will be editing this file using [markdown](https://commonmark.org/help/).
    You will write your answers in this file, and this edited file will be
    what you submit for your lab submission. You can switch back and forth
    between viewing and editing this file using the "preview" button in the
@@ -24,29 +17,21 @@ There are a few things that you should know about this lab assignment:
    display it nicely formatted. Don't worry about getting everything to
    look perfect.
 
-3. Each person on the team should have their own copy of this file, but
-   I recommend filling in __one__ team member's markdown file.
-   When your team is done with the lab, make sure to coordinate about how to get each team member can get the files the group worked on!  I recommend doing this before leaving the lab session, as it is very easy to have an issue come up (mistyped email address, forgetfulness, etc.)
-
-   Make sure to write down your name and who you worked with at the top of this file and at the top of your Java code!
-
 ## Goals
 
-By the time that you are done with this activity, you and your partner
+By the time that you are done with this activity, you
 should be able to:
 
 * remember how to use `for` loops to iterate over arrays,
 * use arrays in different ways to solve problems,
-* learn some things about Strings in Java,
-* and work more effectively as a team.
+* and learn some things about Strings in Java.
 
 ## Playing the Game
 
 Run `WheelOfFortune.java` to play the game. It is a two-player game:
 the first player should enter an English phrase in all lowercase letters
 that the second player will have to guess, letter by letter.
-You and your partner should play a few times before getting together
-to answer the questions. Limit yourself to ~5 minutes.
+You should play a few times before answering the questions. Limit yourself to ~5 minutes.
 
 Note that to answer these questions, you may need to go back and play
 the game again to answer some of the questions to come. But you should
@@ -75,12 +60,12 @@ Why or why not?
 
   __Answer__:
 
-### If you and your partner feel comfortable with the game, go onto Part B.
+### If you feel comfortable with the game, go onto Part B.
 ### Otherwise, check-in with me to clear up any confusion.
 
 ## Part B:
 
-In Part B, you and your partner will explore the inner workings of this game
+In Part B, you will explore the inner workings of this game
 and how it is implemented in Java.
 
 - What is the data type of the secretArray variable first declared on line 17?
@@ -123,8 +108,7 @@ the for loop?  Why or why not?
 
   __Answer__:
 
-### Stop and check-in with me.  If I'm busy, make sure I know you're waiting
-### but then go onto the next section.
+### Check in with me if you have any questions!
 
 ## Part C
 
@@ -182,8 +166,8 @@ If you're not sure, comment out this line and play the game!
 
   __Answer__:
 
-### Stop and check-in with me.  If I'm busy, make sure I know you're waiting
-### but then go onto the next section.
+### Do you feel like you understand what the code is doing? If not, 
+### stop and check in with me!
 
 ## Part D
 
