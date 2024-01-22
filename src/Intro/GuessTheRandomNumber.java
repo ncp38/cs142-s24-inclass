@@ -1,14 +1,41 @@
+//Nate Phillips, professor for COMP 142
 package Intro;
-public class GuessTheRandomNumber
-{
+
+//These statements are import statements-they pull in functionality you may want to use.
+//For example, this package lets you use the *scanner.*
+import java.util.Scanner;
+
+//The class file - defines a set of variables and functions.  (We'll talk more about this later.)
+public class GuessTheRandomNumber {
+
+    //This is the line that starts your program's execution...
     public static void main(String[] args)
     {
-        //Between 0 and 1 non-inclusive
-        double randomNumber = Math.random();
+        //Variable declarations - can be with or without initialization.
+        int numRandom = 50;   // this will get replaced with a random number generator
+        int userGuess;
 
-        //Pick a number between 1 and 10
-        int randomInt = (int) (Math.random()*10+1);//The +1 changes the result ranging from 0 to 9 to 1 to 10.
+        //Calling a built-in java function...
+        //The argument is in the parentheses.
+        System.out.println("Welcome to the game!");
 
-        //The rest of the program is left for us to work on in class!
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        userGuess = scanner.nextInt();
+        System.out.println("Your guess was " + userGuess);
+
+        //Our first conditional statement!  Notice the curly brackets containing the if clause.
+        if (userGuess < numRandom)
+        {
+            System.out.println("Your guess is too small!");
+        }
+        else if (userGuess > numRandom)
+        {
+            System.out.println("Your guess is too big!");
+        }
+        else
+        {
+            System.out.println("You guessed the number!");
+        }
     }
 }
