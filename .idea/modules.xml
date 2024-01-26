@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/cs142-s24-inclass.iml" filepath="$PROJECT_DIR$/cs142-s24-inclass.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/cs142-s24-inclass1.iml" filepath="$PROJECT_DIR$/src/cs142-s24-inclass1.iml" />
     </modules>
   </component>
 </project>
