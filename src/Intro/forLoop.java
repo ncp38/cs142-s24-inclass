@@ -12,10 +12,10 @@ class forLoop
         {
             System.out.println(i);
 
-            i = i + 3;
+            i = i + 3;//i +=3
         }
 
-        for(int j = 0; j < 5; j++)
+        for(int j = 0; j < 5; j++)//j = j + 1
         {
             System.out.println(j+1);
         }
@@ -30,7 +30,7 @@ class forLoop
                 System.out.println(roundCount + k);
             }
 
-            i--;
+            i--;//i = i - 1;
         }
     }
 }

@@ -27,7 +27,7 @@ public class FunctionsScopeAndArrays
         classVariable++;
     }
 
-    public static boolean sumRange(int lower, int upper)
+    public static int sumRange(int lower, int upper)
     {
         int sum = 0;
 
@@ -36,7 +36,7 @@ public class FunctionsScopeAndArrays
             sum += i;
         }
 
-        return true;
+        return sum;
     }
 
 }
