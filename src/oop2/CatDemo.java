@@ -2,6 +2,11 @@ package oop2;
 
 public class CatDemo {
     public static void main(String[] args) {
+        Cat Tim = new Cat();
+        Tim.setAge(103);
+        System.out.println(Tim.getAge());
+
+        int z = 0;
         /*Cat pumpkin = new Cat("Pumpkin", 9);
         Cat tank = new Cat("Tank", 14);
         //pumpkin.setAge(9);
