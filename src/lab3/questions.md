@@ -36,7 +36,7 @@ Open up the `Car` class (in `Car.java`). Read the Javadoc
 comment at the top of the `Car.java` file, and skim through
 the rest of the file.
 
-- How many instance variables does the `Car` class have?
+- How many instance variables (also called class variables-these are variables that are declared inside the class but outside of any function) does the `Car` class have?
 
 __Your answer here__
 
