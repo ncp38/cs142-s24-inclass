@@ -3,6 +3,11 @@ package oop2;
 public class CatDemo {
     public static void main(String[] args) {
         Cat Tim = new Cat();
+
+        Tim.name = "Tim";
+        Tim.name = "Tim, Prince of all cats!";
+        System.out.println(Tim.name);
+
         Tim.setAge(103);
         System.out.println(Tim.getAge());
 
@@ -41,7 +46,7 @@ public class CatDemo {
         pumpkin.playWith(tank);
         tank.playWith(pumpkin);*/
 
-        Cat[] myCats = new Cat[3];
+        /*Cat[] myCats = new Cat[3];
 
         Cat fluffy = new Cat();
         myCats[0] = new Cat("Pumpkin", 5);
@@ -58,7 +63,7 @@ public class CatDemo {
         for (int i = 0; i < myCats.length; i++) {
             total += myCats[i].getAge();
         }
-        System.out.println("The total ages of all the cats is: " + total);
+        System.out.println("The total ages of all the cats is: " + total);*/
 
     }
 }

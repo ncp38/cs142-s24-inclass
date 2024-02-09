@@ -1,14 +1,22 @@
 package oop2;
 
 public class Cat {
-    private String name;
+    public String name;
     private int age;
     private double weight;
     private int energy;
 
     static private int numberOfCats = 0;
 
-    public Cat() {  // default constructor
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int newAge) {
+        age = newAge;
+    }
+
+    /*public Cat() {  // default constructor
         age = 1;
         weight = 2;
         energy = 5;
@@ -74,6 +82,6 @@ public class Cat {
 
     public void playWith(Cat otherCat) {
         System.out.println(name + " plays with " + otherCat.name);
-    }
+    }*/
 
 }
