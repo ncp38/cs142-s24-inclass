@@ -4,7 +4,7 @@ public class Cat {
     public String name;
     private int age;
     private double weight;
-    private int energy;
+    public int energy;
 
     static private int numberOfCats = 0;
 
