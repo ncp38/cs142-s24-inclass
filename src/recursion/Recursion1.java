@@ -4,13 +4,14 @@ public class Recursion1 {
 
     public static void main(String[] args)
     {
-        long factAnswer = factRec(14);
-
-        for (int i = 1; i <= 10; i++)
+        System.out.println(reverseRec("money"));
+        //long factAnswer = factRec(50);
+        //System.out.println(factAnswer);
+        /*for (int i = 1; i <= 10; i++)
         {
             factAnswer = fact(i);
             System.out.println("The factorial of " + i + " is " + factAnswer);
-        }
+        }*/
     }
 
     public static long fact(int num)
@@ -47,6 +48,13 @@ public class Recursion1 {
 
     public static String reverseRec(String str)
     {
-        return ""; // remove this when you start coding
+        if(str.length() == 1)
+        {
+            return str;
+        }
+        else
+        {
+            return str.charAt(str.length()-1) + reverseRec(str.substring(0, str.length()-1));
+        }
     }
 }

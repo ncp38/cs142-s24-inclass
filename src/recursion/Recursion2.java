@@ -84,10 +84,10 @@ public class Recursion2 {
             return;
         }
         else {
-            //System.out.println(n);
-            weird(n - 1);
             System.out.println(n);
             weird(n - 1);
+            //System.out.println(n);
+            //weird(n - 1);
         }
     }
 
