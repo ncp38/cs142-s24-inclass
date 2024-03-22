@@ -227,7 +227,7 @@ will happen.
 
 Now let's make the game work!  
 
-**As you go through this section, if you encounter bugs, use lots of  print statements to try to debug.  You can print a snake to see where it is and what direction it is facing.  Call me over for help if you get stuck.**
+**As you go through this section, if you encounter bugs, use lots of print statements or breakpoints to try to debug.  You can print a snake to see where it is and what direction it is facing.  Call me over for help if you get stuck.**
 
 First, fill in the part of draw() to draw the snake.  There's a
 big comment that explains what to do to draw the snake.  You will
@@ -279,6 +279,9 @@ all the code to make it move and grow, and also detect collisions
 with the wall and itself.  You should also detect collisions with the
 other snake!  I recommend starting the second snake at a different
 spot on the board than the first snake (far away from it).
+
+This is the end of the main lab, but these optional extra problems are a fun way to 
+keep going with the lab if you're interesed in challenging yourself!
 
 Bonus enhancements: 
 - Prevent snake from turning 180 degrees at once
