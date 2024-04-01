@@ -6,10 +6,10 @@ public class Parrot {
     private int energy;
     private Color color;
 
-    public Parrot(int e, Color c)
+    public Parrot()
     {
-        energy = e;
-        color = c;
+        energy = 3;
+        color = Color.CYAN;
     }
 
     public int getEnergy() {
