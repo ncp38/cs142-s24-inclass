@@ -6,6 +6,12 @@ public class Parrot {
     private int energy;
     private Color color;
 
+    public Parrot(int e, Color c)
+    {
+        energy = e;
+        color = c;
+    }
+
     public int getEnergy() {
         return energy;
     }

@@ -1,9 +1,15 @@
-package inherit1;
+package poly1;
 
 public class Dog
 {
-    protected String name;
-    protected int age;
+    private String name;
+    private int age;
+
+    public Dog(String newName, int newAge) {
+        System.out.println("Constructing a dog object.");
+        name = newName;
+        age = newAge;
+    }
 
     public void speak() {
         System.out.println(name + " says woof woof!");

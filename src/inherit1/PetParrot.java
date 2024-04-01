@@ -13,7 +13,7 @@ public class PetParrot extends Parrot
         return name;
     }
 
-    public void talk()
+    public void speak()
     {
         setEnergy(getEnergy()-1);
         System.out.println("Hi, my name is " + getName());
