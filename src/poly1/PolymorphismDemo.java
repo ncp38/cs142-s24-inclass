@@ -6,8 +6,8 @@ public class PolymorphismDemo {
 
     public static void main(String[] args)
     {
-        testPolymorphism();
-        //dogpark();
+        //testPolymorphism();
+        dogpark();
     }
 
     public static void testPolymorphism()
@@ -43,12 +43,19 @@ public class PolymorphismDemo {
 
         // try calling speakTwice:
         System.out.println("Calling speaktwice:");
-        //speakTwice(regularDog);
+        speakTwice(polymorphDog);
 
         // try creating a random dog:
         Dog d = createRandomDog();
         System.out.println("Is this a dog or a showdog?  We don't know ahead of time:");
-        //d.speak();
+        d.speak();
+
+        if(d instanceof ShowDog)
+        {
+            ShowDog e = (ShowDog) d;
+            e.dance();
+        }
+
         //d.dance();
     }
 
@@ -98,7 +105,14 @@ public class PolymorphismDemo {
 
         for (Dog d : listOfDogs)
         {
-            stuckUpDog.chase(d);
+            if(d instanceof ShowDog)
+            {
+                stuckUpDog.chase(d);
+            }
+            else
+            {
+                System.out.println(stuckUpDog.getName() + " doesn't want to play with just regular Dogs like " + d.getName() +".");
+            }
         }
     }
 }

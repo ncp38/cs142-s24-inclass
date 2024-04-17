@@ -1,5 +1,7 @@
 package interfaces1;
 
+import java.util.Collection;
+
 public class Fraction {
     private int numer;
     private int denom;
